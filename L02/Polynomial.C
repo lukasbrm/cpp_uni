@@ -127,6 +127,13 @@ int main()
         complex<double> p = b;
         complex<double> q = c;
 
+        // If p = 0, there is no solution
+        if(real(p) == 0 && imag(p) == 0)
+        {
+            cout << "No solution!" << endl;
+            exit(EXIT_SUCCESS);
+        }
+
         complex<double> x1 = (0.0 - q) / p;
 
         cout << "x1: " << real(x1) << "+" << imag(x1) << "i" << endl;
