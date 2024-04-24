@@ -4,6 +4,7 @@
         "YourName.C": "cpp",
         "Calculations.C": "cpp",
         "iostream": "cpp",
-        "Polynomial.C": "cpp"
+        "Polynomial.C": "cpp",
+        "SumOfSquares.C": "cpp"
     }
 }
